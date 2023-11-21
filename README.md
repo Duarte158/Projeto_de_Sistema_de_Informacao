@@ -1,4 +1,4 @@
-# Plataformas de Sistemas de Informação 
+# Projeto de Sistema de Informação 
 
 
 Este Repositório é direcionado para o projeto da Unidade Curricular de Sistema de Informação lecionada no IPL 
