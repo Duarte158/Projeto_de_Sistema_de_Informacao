@@ -82,9 +82,6 @@ class m231120_200456_init_rbac extends Migration
         $auth->add($eliminarUser);
 
 
-
-
-
         $loginBackend = $auth->createPermission('loginBackend');
         $auth->add($loginBackend);
 
@@ -103,11 +100,6 @@ class m231120_200456_init_rbac extends Migration
         $auth->assign($admin, 1);
         $auth->assign($func, 2);
         $auth->assign($cliente, 3);
-
-
-
-
-
 
         $auth->addChild($admin , $func);
     }
